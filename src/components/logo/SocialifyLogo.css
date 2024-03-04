@@ -13,4 +13,8 @@
   .socialify-logo:hover .letter {
     transform: rotateY(360deg);
   }
-  
+  @media (max-width: 768px) {
+  .socialify-logo {
+    display: none;
+  }
+  }
