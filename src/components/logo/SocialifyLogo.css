@@ -1,0 +1,16 @@
+.socialify-logo {
+    font-size: 2rem;
+    font-family: cursive;
+    text-transform: uppercase;
+    
+  }
+  
+  .socialify-logo .letter {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .socialify-logo:hover .letter {
+    transform: rotateY(360deg);
+  }
+  
